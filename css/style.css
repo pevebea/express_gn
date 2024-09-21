@@ -18,19 +18,19 @@ nav, .livraison-title {
     height: 300px;
 }
 
-
 .btn-livraison {
     background-color: transparent; /* Fond transparent */
-    color: #fa871b; /* Couleur du texte (bleu Bootstrap) */
-    border: 2px solid #fa871b; /* Bordure bleue */
+    color: #fa871b; /* Couleur du texte  */
+    border: 2px solid #fa871b; 
     padding: 10px 20px; /* Espacement intérieur */
-    font-size: 16px; /* Taille de la police */
-    border-radius: 5px; /* Coins arrondis */
-    cursor: pointer; /* Curseur en main au survol */
-    transition: background-color 0.3s, color 0.3s; /* Effet de transition */
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-livraison:hover {
     background-color: #fa871b; /* Couleur de fond au survol */
     color: white; /* Couleur du texte au survol */
 }
+

@@ -33,13 +33,38 @@
                 </div>
             </div>
         </nav>
-        
-        <div class="container">
-            <h1>connexion</h1>
-        </div>
-          
+
+           <!-- Formulaire d'inscription -->
+      <div class="container m-auto">
+        <form class="signup-form">
+          <h1>
+            <img src="./img/logo_expressgn.png" alt="logo" width="40" height="40">
+            Connexion
+          </h1>
+          <div class="mb-3">
+          <div class="mb-3">
+            <label for="address" class="form-label">
+              <i class="fas fa-map-marker-alt"></i> Adresse
+            </label>
+            <input type="text" class="form-control" id="address" placeholder="Votre adresse" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">
+              <i class="fas fa-lock"></i> Mot de passe
+            </label>
+            <input type="password" class="form-control" id="password" placeholder="Votre mot de passe" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+          <p class="text-center mt-3">
+            Vous avez oublie votre mot de pass ? <a href="#">modifiez le ici</a>
+            Vous n;avez pas de compte ? <a href="./signup.html">inscrivez-vous ici</a>
+          </p>
+        </form>
+      </div>
+
+
         <!-- pied de page -->
-        <footer class="bg-body-tertiary text-center bg-primary">
+        <footer class="text-center">
             <!-- Grid container -->
             <div class="container p-4 pb-0">
             <!-- Section: Form -->
@@ -68,7 +93,7 @@
                     <!--Grid column-->
                     <div class="col-auto">
                     <!-- Submit button -->
-                    <button data-mdb-ripple-init type="submit" class="btn btn-primary mb-4">
+                    <button data-mdb-ripple-init type="submit" class="btn mb-4">
                         Subscribe
                     </button>
                     </div>
@@ -94,3 +119,13 @@
     </div>
  </body>
 </html>
+
+
+<style>
+    body {
+      background-image: url('./img/login_backgroung.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+  </style>
